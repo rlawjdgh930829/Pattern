@@ -14,7 +14,7 @@ public class MpCreator extends ItemCreator {
 
 	@Override
 	protected void createItemLog() {
-		System.out.println("마력 회복 물약을 생성" + new Date());
+		System.out.println("마력 회복 물약을 생성 " + new Date());
 	}
 
 	@Override
