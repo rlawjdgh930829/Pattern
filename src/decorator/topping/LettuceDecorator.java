@@ -9,7 +9,7 @@ public class LettuceDecorator extends ToppingDecorator {
 	}
 	
 	public void make() {
-		super.make(); // super를 통해 부모 클래스의 make를 호출
+		super.make(); // super를 통해 부모 클래스의 make()메소드를 호출
 		addLettuce();
 	}
 	
