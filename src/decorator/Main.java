@@ -15,9 +15,10 @@ public class Main {
 		sandwichWithLettuce.make();
 		
 		System.out.println();
-		
-		Sandwich sandwichWithLettuceAndPickle = new PickleDecorator(new LettuceDecorator(new Bread()));
-		sandwichWithLettuceAndPickle.make();
+		Sandwich sandwichWithLettuceAndPickle1 = new PickleDecorator(sandwichWithLettuce);
+		sandwichWithLettuceAndPickle1.make();
+		Sandwich sandwichWithLettuceAndPickle2 = new PickleDecorator(new LettuceDecorator(new Bread()));
+		sandwichWithLettuceAndPickle2.make();
 		
 	}
 
